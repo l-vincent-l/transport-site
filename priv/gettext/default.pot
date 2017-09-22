@@ -54,23 +54,23 @@ msgstr ""
 msgid "landing_heading"
 msgstr ""
 
-#: lib/transport_web/templates/page/login.html.eex:24
+#: lib/transport_web/templates/page/login.html.eex:29
 msgid "login_link_between_transport_data"
 msgstr ""
 
-#: lib/transport_web/templates/page/login.html.eex:6
+#: lib/transport_web/templates/page/login.html.eex:10
 msgid "login_title"
 msgstr ""
 
-#: lib/transport_web/templates/page/login.html.eex:44
+#: lib/transport_web/templates/page/login.html.eex:49
 msgid "login_what_am_i_supossed_to_do"
 msgstr ""
 
-#: lib/transport_web/templates/page/login.html.eex:14
+#: lib/transport_web/templates/page/login.html.eex:19
 msgid "login_what_is_data_gouv_fr"
 msgstr ""
 
-#: lib/transport_web/templates/page/login.html.eex:34
+#: lib/transport_web/templates/page/login.html.eex:39
 msgid "login_what_is_going_to_happen"
 msgstr ""
 
@@ -99,7 +99,7 @@ msgid "shortlist_title"
 msgstr ""
 
 #: lib/transport_web/templates/layout/_header.html.eex:13
-#: lib/transport_web/templates/page/login.html.eex:52
+#: lib/transport_web/templates/page/login.html.eex:57
 msgid "sign_in"
 msgstr ""
 

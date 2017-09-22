@@ -54,23 +54,23 @@ msgstr "Re-use data"
 msgid "landing_heading"
 msgstr "Publish and re-use public transport data"
 
-#: lib/transport_web/templates/page/login.html.eex:24
+#: lib/transport_web/templates/page/login.html.eex:29
 msgid "login_link_between_transport_data"
 msgstr "transport.data.gouv.fr belongs to the data.gouv.fr network, and share the same user account"
 
-#: lib/transport_web/templates/page/login.html.eex:6
+#: lib/transport_web/templates/page/login.html.eex:10
 msgid "login_title"
 msgstr "Sign In with data.gouv.fr"
 
-#: lib/transport_web/templates/page/login.html.eex:44
+#: lib/transport_web/templates/page/login.html.eex:49
 msgid "login_what_am_i_supossed_to_do"
 msgstr "After having clicked this button, you should click on 'accepter' to authorise transport.data.gouv.fr to access your data.gouv.fr account details"
 
-#: lib/transport_web/templates/page/login.html.eex:14
+#: lib/transport_web/templates/page/login.html.eex:19
 msgid "login_what_is_data_gouv_fr"
 msgstr "data.gouv.fr is the open platform for French public data"
 
-#: lib/transport_web/templates/page/login.html.eex:34
+#: lib/transport_web/templates/page/login.html.eex:39
 msgid "login_what_is_going_to_happen"
 msgstr "By clicking this button, you'll be able to create an account or use your existing data.gouv.fr account to log in"
 
@@ -99,7 +99,7 @@ msgid "shortlist_title"
 msgstr "Available datasets"
 
 #: lib/transport_web/templates/layout/_header.html.eex:13
-#: lib/transport_web/templates/page/login.html.eex:52
+#: lib/transport_web/templates/page/login.html.eex:57
 msgid "sign_in"
 msgstr "Sign In"
 

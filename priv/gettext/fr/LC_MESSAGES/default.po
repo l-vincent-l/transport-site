@@ -54,23 +54,23 @@ msgstr "Réutiliser des données"
 msgid "landing_heading"
 msgstr "Ouvrir et ré-utiliser les données transports"
 
-#: lib/transport_web/templates/page/login.html.eex:24
+#: lib/transport_web/templates/page/login.html.eex:29
 msgid "login_link_between_transport_data"
 msgstr "transport.data.gouv.fr est un site affilié à data.gouv.fr, les deux sites utilisent le même compte"
 
-#: lib/transport_web/templates/page/login.html.eex:6
+#: lib/transport_web/templates/page/login.html.eex:10
 msgid "login_title"
 msgstr "Identification avec un compte data.gouv.fr"
 
-#: lib/transport_web/templates/page/login.html.eex:44
+#: lib/transport_web/templates/page/login.html.eex:49
 msgid "login_what_am_i_supossed_to_do"
 msgstr "Après avoir cliqué le bouton, vous devrez cliquer sur « accepter » pour autoriser transport.data.gouv.fr à utiliser votre compte data.gouv.fr"
 
-#: lib/transport_web/templates/page/login.html.eex:14
+#: lib/transport_web/templates/page/login.html.eex:19
 msgid "login_what_is_data_gouv_fr"
 msgstr "data.gouv.fr est la plateforme ouverte des données publiques françaises"
 
-#: lib/transport_web/templates/page/login.html.eex:34
+#: lib/transport_web/templates/page/login.html.eex:39
 msgid "login_what_is_going_to_happen"
 msgstr "En cliquant sur le bouton ci-dessous vous allez pouvoir créer un compte et/ou vous identifier avec votre compte data.gouv.fr"
 
@@ -99,7 +99,7 @@ msgid "shortlist_title"
 msgstr "Jeux de données disponibles"
 
 #: lib/transport_web/templates/layout/_header.html.eex:13
-#: lib/transport_web/templates/page/login.html.eex:52
+#: lib/transport_web/templates/page/login.html.eex:57
 msgid "sign_in"
 msgstr "S'identifier"
 
