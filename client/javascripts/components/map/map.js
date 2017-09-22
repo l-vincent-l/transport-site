@@ -18,7 +18,8 @@ const Mapbox = {
  * @param  {String} featuresUrl Url exposing a {FeatureCollection}.
  */
 export const addMap = (id, featuresUrl) => {
-    const map = Leaflet.map(id).setView([51.505, -0.09], 13)
+    const map   = Leaflet.map(id).setView([51.505, -0.09], 13)
+    const popup = '<a class="landing-reuse" role="link" href="mailto:contact@transport.beta.gouv.fr"><i aria-hidden="true"></i> Ré-utiliser ces données</a>'
 
     Leaflet.tileLayer(Mapbox.url, {
         accessToken: Mapbox.accessToken,
@@ -32,10 +33,14 @@ export const addMap = (id, featuresUrl) => {
         .then(data => {
             const geoJSON = Leaflet.geoJSON(data, {
                 pointToLayer: (feature, latlng) => {
+                    if (!feature.properties.has_data) { return }
+
                     return Leaflet.circleMarker(latlng, {
-                        radius: 2,
-                        color: feature.properties.has_data ? 'green' : 'red'
-                    })
+                        color: '#1CB841',
+                        fillColor: '#1CB841',
+                        fillOpacity: 0.25,
+                        radius: 25
+                    }).bindPopup(popup)
                 }
             })
 
