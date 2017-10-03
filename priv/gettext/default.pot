@@ -10,25 +10,32 @@
 msgid ""
 msgstr ""
 
-#: lib/transport_web/templates/layout/_header.html.eex:13
-#: lib/transport_web/templates/page/login.html.eex:48
-msgid "sign_in"
+#: lib/transport_web/controllers/user_controller.ex:15
+msgid "connection_needed"
 msgstr ""
 
-#: lib/transport_web/templates/layout/_header.html.eex:8
-msgid "sign_out"
+#: lib/transport_web/templates/layout/_footer.html.eex:10
+msgid "contact"
 msgstr ""
 
-#: lib/transport_web/templates/page/index.html.eex:2
-msgid "landing_heading"
+#: lib/transport_web/templates/user/organizations.html.eex:2
+msgid "declare_organization"
 msgstr ""
 
-#: lib/transport_web/templates/page/index.html.eex:12
-msgid "landing-hero_heading"
+#: lib/transport_web/templates/user/organizations.html.eex:1
+msgid "first_step"
+msgstr ""
+
+#: lib/transport_web/templates/page/shortlist.html.eex:2
+msgid "frlo"
 msgstr ""
 
 #: lib/transport_web/templates/page/index.html.eex:13
 msgid "landing-hero_description"
+msgstr ""
+
+#: lib/transport_web/templates/page/index.html.eex:12
+msgid "landing-hero_heading"
 msgstr ""
 
 #: lib/transport_web/templates/page/index.html.eex:18
@@ -39,8 +46,36 @@ msgstr ""
 msgid "landing-hero_reuse"
 msgstr ""
 
-#: lib/transport_web/templates/page/shortlist.html.eex:2
-msgid "frlo"
+#: lib/transport_web/templates/page/index.html.eex:22
+msgid "landing-hero_reusedatasets"
+msgstr ""
+
+#: lib/transport_web/templates/page/index.html.eex:2
+msgid "landing_heading"
+msgstr ""
+
+#: lib/transport_web/templates/page/login.html.eex:24
+msgid "login_link_between_transport_data"
+msgstr ""
+
+#: lib/transport_web/templates/page/login.html.eex:6
+msgid "login_title"
+msgstr ""
+
+#: lib/transport_web/templates/page/login.html.eex:44
+msgid "login_what_am_i_supossed_to_do"
+msgstr ""
+
+#: lib/transport_web/templates/page/login.html.eex:14
+msgid "login_what_is_data_gouv_fr"
+msgstr ""
+
+#: lib/transport_web/templates/page/login.html.eex:34
+msgid "login_what_is_going_to_happen"
+msgstr ""
+
+#: lib/transport_web/templates/user/organizations.html.eex:27
+msgid "organizations_needed"
 msgstr ""
 
 #: lib/transport_web/templates/page/shortlist.html.eex:3
@@ -55,42 +90,27 @@ msgstr ""
 msgid "shortlist_seedatagouvfr"
 msgstr ""
 
-#: lib/transport_web/templates/page/shortlist.html.eex:1
-msgid "shortlist_title"
-msgstr ""
-
 #: lib/transport_web/templates/page/shortlist.html.eex:5
 msgid "shortlist_territory"
 msgstr ""
 
-#: lib/transport_web/templates/page/index.html.eex:22
-msgid "landing-hero_reusedatasets"
+#: lib/transport_web/templates/page/shortlist.html.eex:1
+msgid "shortlist_title"
 msgstr ""
 
-#: lib/transport_web/templates/layout/_footer.html.eex:10
-msgid "contact"
+#: lib/transport_web/templates/layout/_header.html.eex:13
+#: lib/transport_web/templates/page/login.html.eex:52
+msgid "sign_in"
+msgstr ""
+
+#: lib/transport_web/templates/layout/_header.html.eex:8
+msgid "sign_out"
+msgstr ""
+
+#: lib/transport_web/templates/user/organizations.html.eex:16
+msgid "thisIsTransportPublisher"
 msgstr ""
 
 #: lib/transport_web/templates/layout/_footer.html.eex:17
 msgid "tos"
-msgstr ""
-
-#: lib/transport_web/templates/page/login.html.eex:20
-msgid "login_link_between_transport_data"
-msgstr ""
-
-#: lib/transport_web/templates/page/login.html.eex:2
-msgid "login_title"
-msgstr ""
-
-#: lib/transport_web/templates/page/login.html.eex:40
-msgid "login_what_am_i_supossed_to_do"
-msgstr ""
-
-#: lib/transport_web/templates/page/login.html.eex:10
-msgid "login_what_is_data_gouv_fr"
-msgstr ""
-
-#: lib/transport_web/templates/page/login.html.eex:30
-msgid "login_what_is_going_to_happen"
 msgstr ""
