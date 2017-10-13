@@ -44,7 +44,8 @@ defmodule Transport.Mixfile do
       {:httpoison, "~> 0.13"},
       {:exvcr, "~> 0.8", only: :test},
       {:hound, "~> 1.0.2", only: :test},
-      {:credo, "~> 0.8", only: [:dev, :test], runtime: false}
+      {:credo, "~> 0.8", only: [:dev, :test], runtime: false},
+      {:amqp, "~> 0.3.0"}
     ]
   end
 end

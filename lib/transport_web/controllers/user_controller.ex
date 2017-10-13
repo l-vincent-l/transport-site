@@ -1,6 +1,6 @@
 defmodule TransportWeb.UserController do
   use TransportWeb, :controller
-  alias Transport.Datagouvfr.Client
+  alias Transport.{Worker, Datagouvfr.Client}
   alias TransportWeb.ErrorView
   plug :authentication_required
 
@@ -40,7 +40,8 @@ defmodule TransportWeb.UserController do
     slug
     |> Client.put_datasets({:add_tag, "GTFS"}, conn)
     |> case do
-      {:ok, _} ->
+      {:ok, dataset} ->
+        Worker.validate_data(dataset["uri"])
         conn
         |> render("add_badge_dataset.html")
       {:error, _} ->
