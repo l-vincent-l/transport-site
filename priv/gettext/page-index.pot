@@ -19,7 +19,7 @@ msgid "Reuse this data"
 msgstr ""
 
 #: lib/transport_web/templates/page/index.html.eex:12
-msgid "What is transport.beta.gouv.fr?"
+msgid "What is transport.data.gouv.fr?"
 msgstr ""
 
 #: lib/transport_web/templates/page/index.html.eex:18
