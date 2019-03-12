@@ -73,6 +73,8 @@ defmodule Transport.Mixfile do
       {:geo_postgis, "~> 2.0"},
       {:open_api_spex, "~> 3.1"},
 
+      {:distillery, "~> 2.0"},
+
       {:phoenix_live_reload, "~> 1.2", only: :dev},
       {:exvcr, "~> 0.10", only: :test},
       {:hound, "~> 1.0", only: :test},

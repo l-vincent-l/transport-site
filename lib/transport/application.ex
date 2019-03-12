@@ -10,7 +10,6 @@ defmodule Transport.Application do
   import Supervisor.Spec, only: [supervisor: 2]
 
   def start(_type, _args) do
-
     children = [
       supervisor(TransportWeb.Endpoint, []),
       Repo,
@@ -23,7 +22,7 @@ defmodule Transport.Application do
   end
 
   defp add_scheduler(children) do
-    if Mix.env != :test do
+    if Application.get_env(:transport, :environment) != :test do
       import Supervisor.Spec, only: [worker: 2]
       [worker(Transport.Scheduler, []) | children]
     else

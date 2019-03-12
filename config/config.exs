@@ -5,6 +5,8 @@
 # is restricted to this project.
 use Mix.Config
 
+config :transport, :environment, Mix.env
+
 # Configures the endpoint
 config :transport, TransportWeb.Endpoint,
   url: [host: "127.0.0.1"],
