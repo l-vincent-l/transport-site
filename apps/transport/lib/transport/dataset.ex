@@ -79,9 +79,16 @@ defmodule Transport.Dataset do
   def search_datasets(q, s \\ []) do
     resource_query = no_validations_query()
 
+    res = Transport.IndexDatasets.search(q) # DEBUG
+    in_values = res
+      |> Enum.map(fn {dataset_id, rank} -> "(#{dataset_id}, #{rank})" end)
+      |> Enum.join(", ")
+      |> IO.inspect
+
+
+
     __MODULE__
-    |> where([d], fragment("search_vector @@ plainto_tsquery('simple', ?) or title = ?", ^q, ^q))
-    |> order_by([l], [desc: fragment("ts_rank_cd(search_vector, plainto_tsquery('simple', ?), 32) DESC, population", ^q)])
+    |> join(:inner, [d], fragment("(VALUES ? AS x (id, ordering) ON ? = id) ORDER BY x.ordering", ^in_values, d.id))
     |> select_active
     |> select_or_not(s)
     |> preload([resources: ^resource_query])

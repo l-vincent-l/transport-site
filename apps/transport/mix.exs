@@ -83,6 +83,7 @@ defmodule Transport.Mixfile do
       {:credo, "~> 0.8", only: [:dev, :test], runtime: false},
       {:ex_aws, "~> 2.1"},
       {:ex_aws_s3, "~> 2.0"},
+      {:tantivy, path: "/home/antoine/dev/beta.gouv.fr/vrac/full_text_search_demo"},
     ]
   end
 end
