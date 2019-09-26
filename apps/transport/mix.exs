@@ -77,6 +77,7 @@ defmodule Transport.Mixfile do
       {:geo_postgis, "~> 2.0"},
       {:open_api_spex, "~> 3.1"},
       {:gbfs, in_umbrella: true},
+      {:db, in_umbrella: true},
       {:castore, "~> 0.1.0"},
       {:mint, "~> 0.2.0"},
 
