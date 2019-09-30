@@ -26,7 +26,8 @@ defmodule Datagouvfr.MixProject do
   defp deps do
     [
       {:gettext, ">= 0.0.0"},
-      {:oauth2, "~> 0.9"}
+      {:oauth2, "~> 0.9"},
+      {:plug, ">= 0.0.0"}
     ]
   end
 end
